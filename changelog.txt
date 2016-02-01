@@ -1,0 +1,159 @@
+*** Medica Changelog ***
+
+ 2014.10.07 - version 2.2.6
+ * preloadCssImages deleted
+	medica-parent/js/preloadCssImages.js 
+ * minor changes
+	medica-parent/style.css
+	medica-parent/js/advanced.js
+
+ 2014.02.13 - version 2.2.5
+ * minor changes
+	medica-parent/content-contact-form.php
+	medica-parent/content-single.php
+	medica-parent/functions.php
+	medica-parent/header.php
+	medica-parent/listing-blog.php
+	medica-parent/single.php
+	medica-parent/comments-template.php
+	medica-parent/comments.php
+	medica-parent/css/aw-kward/css/aw-showcase.css
+	medica-parent/css/aw-kward/js/awkward.js
+	medica-parent/css/aw-kward/js/jquery.aw-showcase.min.js
+	medica-parent/style.css
+	medica-parent/template-services.php
+
+ 2014.01.14 - version 2.2.4
+ * compatibility with theme-check plugin
+	medica-parent/header.php
+	medica-parent/single.php
+	medica-parent/style.css
+ * set image max-width to 100%
+	medica-parent/style.css
+ * theme is translatable
+	medica-parent/comments.php
+
+ 2013.08.02 - version 2.2.3
+ * ui.selectmenu for wp 3.6
+    medica-parent/theme_config/extensions/contactform/options/preview_options.php
+    medica-parent/theme_config/extensions/contactform/static/css/contact_form.css
+    medica-parent/theme_config/extensions/reservationform/static/css/reservation_form.css
+    medica-parent/theme_config/extensions/shortcodes/shortcodes/contactform.php
+    medica-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+ * fixed topmenu bug
+    medica-parent/js/general.js
+ * slider responsive
+    medica-parent/screen.css
+    medica-parent/theme_config/extensions/slider/designs/awkward/static/css/aw-showcase.css
+    medica-parent/theme_config/extensions/slider/designs/awkward/static/js/awkward.js
+    medica-parent/theme_config/extensions/slider/designs/play/static/css/playSlider.css
+    medica-parent/theme_config/extensions/slider/designs/play/static/js/playSlider.js
+    medica-parent/theme_config/extensions/slider/designs/play/static/js/playSliderOptions.js
+ * ajax blog pagination
+    medica-parent/listing-blog.php
+
+ 2013.08.02 - version 2.2.2
+ * wp 3.6 bugs solved
+    medica-parent/header.php
+    medica-parent/js/general.js
+    medica-parent/js/jquery.jcarousel.min.js
+    medica-parent/js/modernizr.min.js
+    medica-parent/js/respond.min.js
+    medica-parent/screen.css
+    medica-parent/style.css
+    
+ 2013.06.19 - version 2.2.1
+ * new install
+    medica-parent/install/uploads/wordpress-medica.xml_.txt
+
+ 2013.01.30 - version 2.2
+ * admin bar styles
+ * GET, POST, COOKIE changes
+
+ 2012.12.24 - version 2.1.16
+ * contact form changes
+ * minor changes
+
+ 2012.12.10 - version 2.1.15
+ * custom  field on contact form
+
+ 2012.12.03 - version 2.1.14
+ * contact form, reservation form js changes
+ * wp 3.5.2 compatibility
+
+ 2012.11.28 - version 2.1.13
+ * new install
+
+ 2012.11.20 - version 2.1.12
+ * new option in homepage tab added
+ * changes in header.php file
+
+ 2012.11.09 - version 2.1.11
+ * problem with page.php solved
+
+ 2012.11.09 - version 2.1.10
+ * problem on file page.php
+
+ 2012.11.08 - version 2.1.9
+ * diferent options for homepage and blog page on dashboard
+ * sidebar position fot search page and blog page
+
+ 2012.10.18 - version 2.1.8
+ * added 'tfuse' for all __ and _e syntaxes
+
+ 2012.10.09 - version 2.1.7
+ * codestyling plugin emprovement
+
+ 2012.09.21 - version 2.1.6
+ * translation emprovement
+
+ 2012..09.13 - version 2.1.5
+ * header_menu class missing in header.php
+
+ 2012.09.12 - version 2.1.4
+ * header.php menu problem
+
+ 2012.09.12 - version 2.1.3
+ * 2 forms on 1 page
+
+ 2012.08.29 - version 2.1.2
+ * contact-form changes
+ * reservation-form changes
+
+ 2012.08.22 - version 2.1.1
+ * copyright footer
+ * shortcode testimonials
+ * .pot file update
+
+ 2012.08.20 - version 2.1
+ * new reservation-form
+
+ 2012.07.13 - version 2.0.4
+ * contact-form final version
+
+ 2012.07.13 - version 2.0.3
+ * new contact-form implementation
+
+ 2012.07.11 - version 2.0.2
+ * change page title when using slider with photos from posts changes in page.php
+ 
+ 2012.06.22 - version 2.0.1
+ * pingback/trackback
+
+ 2012.04.05 - version 2.0
+ * New FuseFramework
+
+ 2012.02.15 - version 1.0.2
+ * /js/reservations.js - Solved problem with Reservations
+ * /library/tfuse_framework/functions/core.php - Fixed error with XSS attack.
+ * /library/tfuse_framework/functions/install.php - AutoInstall update.
+ * thumb.php - Updated to 2.8.6 version.
+ * /library/tfuse_mods/themenodules/includes/theme_add.php - Solved google notice in contact template.
+ * /library/tfuse_framework/admin/admin.php - ThemeFuse framework options are available only for admin users.
+
+ 2001.11.08 - version 1.0.1
+ * Added in function tfuse_custom_title() qTranslate for title
+
+ 2011.10.21 - version 1.0
+ * First release!
+

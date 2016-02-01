@@ -1,0 +1,219 @@
+*** Theme Config Changelog ***
+
+ 2014.10.07 - version 2.2.6
+ * preloadCssImages deleted
+	medica-parent/theme_config/options/admin_options.php
+ * minor changes
+	medica-parent/theme_config/theme_includes/THEME_SCRIPTS_STYLES.php
+	medica-parent/theme_config/config/theme_config.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php
+	medica-parent/theme_config/extensions/slider/designs/awkward/options/awkward_options.php
+	medica-parent/theme_config/extensions/slider/designs/awkward/static/js/awkward.js
+	medica-parent/theme_config/extensions/slider/designs/awkward/template.php
+	medica-parent/theme_config/extensions/slider/designs/play/options/play_options.php
+	medica-parent/theme_config/extensions/slider/designs/play/static/js/playSlider.js
+	medica-parent/theme_config/extensions/slider/designs/play/static/js/playSliderOptions.js
+	medica-parent/theme_config/extensions/slider/designs/play/template.php
+	medica-parent/theme_config/widgets/TFuse_Widget_Newsletter.php
+ 
+ 2014.02.13 - version 2.2.5
+ * minor changes
+	medica-parent/theme_config/config/theme_config.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/map.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/toggle_code.php
+	medica-parent/theme_config/theme_includes/THEME_SCRIPTS_STYLES.php
+	medica-parent/theme_config/extensions/contactform/static/css/contact_form.css
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/minigallery.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/testimonials.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/video_player.php
+	medica-parent/theme_config/extensions/slider/designs/play/static/js/playSliderOptions.js
+	medica-parent/theme_config/widgets/TF_Widget_Social.php 
+ 
+ * solved problem with updating reservation form
+	medica-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ 
+ 2014.01.14 - version 2.2.4
+ * updated reservation form settings
+	medica-parent/theme_config/extensions/reservationform/configurations/base_cfg.php
+	medica-parent/theme_config/extensions/reservationform/options/reservationform_options.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+	medica-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * compatibility with theme-check plugin
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/icons.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+	medica-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+	medica-parent/theme_config/widgets/TF_Widget_Calendar.php
+	medica-parent/theme_config/widgets/TF_Widget_Meta.php
+	medica-parent/theme_config/widgets/TF_Widget_Tag_Cloud.php
+ * array for sidebars name
+	medica-parent/theme_config/common_includes/CUSTOM_POSTS.php
+	medica-parent/theme_config/extensions/sidebars/configurations/base_cfg.php
+ * minor changes in awkward.js
+	medica-parent/theme_config/extensions/slider/designs/awkward/static/js/awkward.js
+ * theme is translatable
+	medica-parent/theme_config/common_includes/CUSTOM_POSTS.php
+	medica-parent/theme_config/extensions/contactform/configurations/base_cfg.php
+	medica-parent/theme_config/extensions/contactform/options/contactform_options.php
+	medica-parent/theme_config/extensions/reservationform/configurations/base_cfg.php
+	medica-parent/theme_config/extensions/reservationform/options/reservationform_options.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/box.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/button.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/chart.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/columns.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/contactform.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/divider.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/doctors.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/drop_cap.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/faq.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/flickr.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/highlight.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/icons.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/image_frame.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/latest_posts.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/link_more.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/list.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/login.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/map.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/minigallery.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/popular_posts.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/prettyPhoto.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/quotes.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/rows.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/search.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/sidebar.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/slideshow.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/table.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/tabs.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/testimonials.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/title.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/toggle_code.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/twitter.php
+	medica-parent/theme_config/extensions/shortcodes/shortcodes/video_player.php
+	medica-parent/theme_config/extensions/sidebars/configurations/base_cfg.php
+	medica-parent/theme_config/extensions/sidebars/includes/sidebars_init.php
+	medica-parent/theme_config/extensions/slider/configurations/base_cfg.php
+	medica-parent/theme_config/extensions/slider/designs/awkward/options/awkward_options.php
+	medica-parent/theme_config/extensions/slider/designs/play/options/play_options.php
+	medica-parent/theme_config/options/admin_options.php
+	medica-parent/theme_config/options/category_options.php
+	medica-parent/theme_config/options/doctors_options.php
+	medica-parent/theme_config/options/page_options.php
+	medica-parent/theme_config/options/post_options.php
+	medica-parent/theme_config/options/services_options.php
+	medica-parent/theme_config/options/specialties_options.php
+	medica-parent/theme_config/widgets/TF_Widget_Recent_Comments.php
+	medica-parent/theme_config/widgets/TFuse_Widget_Twitter.class.php
+
+ 2013.08.02 - version 2.2.2
+ * wp 3.6 bugs solved
+    medica-parent/theme_config/extensions/shortcodes/shortcodes/map.php
+    medica-parent/theme_config/extensions/shortcodes/shortcodes/toggle_code.php
+    medica-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php
+    medica-parent/theme_config/extensions/reservationform/static/css/reservation_form.css
+    medica-parent/theme_config/extensions/slider/designs/awkward/static/css/aw-showcase.css
+    medica-parent/theme_config/extensions/slider/designs/awkward/static/js/awkward.js
+    medica-parent/theme_config/extensions/slider/designs/play/static/css/playSlider.css
+    medica-parent/theme_config/extensions/slider/designs/play/static/js/playSliderOptions.js
+    medica-parent/theme_config/theme_includes/THEME_SCRIPTS_STYLES.php
+
+ 2013.06.19 - version 2.2.1
+ * link more shortcode bug solved
+    medica-parent/theme_config/extensions/shortcodes/shortcodes/link_more.php
+ * featured image
+    medica-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * wpml on homepage
+    medica-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+    medica-parent/theme_config/theme_includes/THEME_HEADER_CONTENT.php
+ * shortcode image_frame cu prettyphoto bug solved
+    medica-parent/theme_config/extensions/shortcodes/shortcodes/image_frame.php
+ * cf translation with qtranslate
+    medica-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+ * twitter api 1.1
+    medica-parent/theme_config/extensions/shortcodes/shortcodes/twitter.php
+    medica-parent/theme_config/options/admin_options.php
+    medica-parent/theme_config/widgets/TFuse_Widget_Twitter.class.php
+
+ 2013.01.30 - version 2.2
+ * admin bar styles
+ * GET, POST, COOKIE changes
+
+ 2012.12.24 - version 2.1.12
+ * contact form changes
+ * minor changes
+
+ 2012.12.10 - version 2.1.11
+ * custom  field on contact form
+
+ 2012.12.03 - version 2.1.10
+ * contact form, reservation form js changes
+ * wp 3.5.2 compatibility
+
+ 2012.11.28 - version 2.1.9
+ * new install
+
+ 2012.11.2012 - version 2.1.8
+ * new option in homepage tab added
+ * changes in header.php file
+
+ 2012.11.08 - version 2.1.7
+ * diferent options for homepage and blog page on dashboard
+ * sidebar position fot search page and blog page
+
+ 2012.10.26 - version 2.1.6
+ * reservation-frm translation
+
+ 2012.10.18 - version 2.1.5
+ * added 'tfuse' for all __ and _e syntaxes
+
+ 2012.09.21 - version 2.1.4
+ * translation emprovement
+
+ 2012.09.12 - version 2.1.3
+ * 2 forms on page
+
+ 2012.08.29 - version 2.1.2
+ * contact-form changes
+ * reservation-form changes
+
+ 2012.08.22 - version 2.1.1
+ * footer copyright option in dashboard
+ * shortcode testimonials
+ * reservation - form minor change
+
+ 2012.08.20 - version 2.1
+ * new reservation form
+
+ 2012.08.08 - version 2.0.9
+ * contact-form final version
+
+ 2012.07.26 - version 2.0.8
+ * contact-form version 3
+ * chart shortcode
+
+ 2012.07.25 - version 2.0.7
+ * contact-form v2(preview)
+ * latest_post shortcode
+
+ 2012.07.13 - version 2.0.6
+ *  new contact-form implementation
+
+ 2012.07.12 - version 2.0.5
+ * removed shortcode link in admin_options.php
+
+ 2012.07.11 - version 2.0.4
+ * changes in TF_Widget-Contact.php
+
+ 2012.06.27 - version 2.0.3
+ * wp 3.4 reupdate
+ * Disable Theme Settings preloadcssimage description
+
+ 2012.06.14 - version 2.0.2
+ * wp 3.4 update
+
+ 2012.04.27 - version 2.0.1
+ * removed seo options
+
+ 2012.04.05 - version 2.0
+ * First release!
